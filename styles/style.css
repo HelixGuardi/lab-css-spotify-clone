@@ -18,6 +18,11 @@ ul, ol {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
 .navbar {
     padding: 10px;
     width: 100%;
@@ -157,6 +162,77 @@ ul, ol {
     color: #1A1A1A;
     font-weight: lighter;
     font-size: 1rem;
+}
+
+#the-green-section {
+    background-color: #00B172;
+    margin: 0px 30px;
+    height: auto;
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-organize {
+    width: 40%;
+    height: 100%;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.green-title-container {
+    margin-bottom: 20px;
+}
+
+.text-organize .green-title-container h3 {
+    width: 100%;
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+
+.text-organize .green-title-container hr {
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+.text-organize .paragraph-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.text-organize .paragraph-container h4 {
+    font-size: 1.7rem;
+}
+
+.text-organize .paragraph-container p {
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.green-image-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#spotify-icon {
+    width: 100px;
+    margin-right: 50px;
+}
+
+#spotify-player {
+    width: 315px;
 }
 
 
