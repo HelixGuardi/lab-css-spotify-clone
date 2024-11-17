@@ -133,7 +133,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
 }
 
 .elements-section .img-section {
@@ -235,5 +234,59 @@ a {
     width: 315px;
 }
 
+@media (width  < 768px) {
+
+    .elements-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .elements-section .element-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #the-green-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .text-organize {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .green-title-container {
+        text-align: center;
+    }
+
+    .paragraph-container {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #spotify-icon {
+        display: none;
+    }
+
+    .green-image-container {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 
