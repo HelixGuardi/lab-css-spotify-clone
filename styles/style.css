@@ -52,6 +52,15 @@ a {
     font-size: 0.9rem;
 }
 
+a {
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #00B172;
+
+}
+
 .image-container {
     background-image: url("/images/landing.jpg");
     background-repeat: no-repeat;
